@@ -1,6 +1,7 @@
 # KavachHackathon-AFND-003-
 ## Fake News Detector
-<img width="1439" alt="Screenshot 2023-04-04 at 2 29 26 PM" src="https://user-images.githubusercontent.com/94167646/229859899-e8712967-e0b7-4e9e-8367-86aecd449866.png">
+<img width="1438" alt="Screenshot 2023-04-04 at 5 31 34 PM" src="https://user-images.githubusercontent.com/94167646/229860113-885c4b1b-148e-46fd-8e74-f99c344cb983.png">
+
 
 We're making this project for Kavach Hackathon.
 The project aims to detect fake news articles using machine learning techniques. The goal is to build a model that can accurately classify news articles as either real or fake.
