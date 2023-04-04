@@ -4,7 +4,8 @@
 <img width="1438" alt="Screenshot 2023-04-04 at 5 31 34 PM" src="https://user-images.githubusercontent.com/94167646/229860356-a7818b07-f243-4738-935a-e0ee50b43778.png">
 
 We're making this project for Kavach Hackathon.
-The project aims to detect fake news articles using machine learning techniques. The goal is to build a model that can accurately classify news articles as either real or fake.
+The project aims to detect fake news articles using machine learning techniques. The goal is to build a model that can accurately classify news articles as either real or fake. To mitigate the impact of the spread of fake news, the tool would automatically send official/authenticated news content to the inboxes of those who have spread fake news. This would help to educate them and prevent them from spreading false information in the future.
+
 
 ## SetUp
 
