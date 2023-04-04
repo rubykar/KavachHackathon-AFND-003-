@@ -1,12 +1,12 @@
 import csv
 
 # Open the first file in read mode and read its contents into a list
-with open('Webscrapping/IFND.csv', 'r', newline='', encoding='ISO-8859-1') as file1:
+with open('IFND.csv', 'r', newline='', encoding='ISO-8859-1') as file1:
     file1_reader = csv.reader(file1)
     file1_contents = list(file1_reader)
 
 # Open the second file in read mode
-with open('Webscrapping/news_headlines.csv', 'r', newline='', encoding='ISO-8859-1') as file2:
+with open('news_update.csv', 'r', newline='', encoding='ISO-8859-1') as file2:
     # Create a CSV reader object for the second file
     file2_reader = csv.reader(file2)
     # Skip the header row in the second file
@@ -25,7 +25,7 @@ with open('Webscrapping/news_headlines.csv', 'r', newline='', encoding='ISO-8859
             file1_contents.append([Statement, Web, Label])
 
 # Open the first file in write mode and write the updated contents to it
-with open('Webscrapping/IFND.csv', 'w', newline='', encoding='ISO-8859-1') as file1:
+with open('IFND.csv', 'w', newline='', encoding='ISO-8859-1') as file1:
     file1_writer = csv.writer(file1)
     file1_writer.writerows(file1_contents)
 
