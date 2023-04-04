@@ -8,9 +8,9 @@ tfidf_vectorizer = pickle.load(open('tfidf.pkl', 'rb'))
 pickled_model = pickle.load(open('lr_model.pkl', 'rb'))
 knn_model = pickle.load(open('knn_model.pkl', 'rb'))
 data = pd.read_csv("IFND.csv", encoding="ISO-8859-1")
-new_data = ["Abhinav Kashyap claims Salman Khan "]
-new_data_tfidf = tfidf_vectorizer.transform(new_data)
-predicted_label = pickled_model.predict(new_data_tfidf)
+# new_data = ["Abhinav Kashyap claims Salman Khan "]
+# new_data_tfidf = tfidf_vectorizer.transform(new_data)
+# predicted_label = pickled_model.predict(new_data_tfidf)
 # st.markdown("""<form>
 # 		<label for="name">Enter the news:</label>
 # 		<input type="text" id="name" name="name" placeholder="Your name...">
