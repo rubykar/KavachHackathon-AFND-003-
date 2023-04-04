@@ -61,7 +61,7 @@ This project demonstrates how machine learning can be used to detect fake news a
 ## Contributors
 Huge Thanks to the fellow contributors for making this possible!
 
-[Ruby kar](https://github.com/rubykar)
-[Prerna Budhwar](https://github.com/prernabr)
-[Sneha Barman](https://github.com/SnehaBarman7121)
-[Kundan Singh](https://github.com/kundan1209)
+- [Ruby kar](https://github.com/rubykar)
+- [Prerna Budhwar](https://github.com/prernabr)
+- [Sneha Barman](https://github.com/SnehaBarman7121)
+- [Kundan Singh](https://github.com/kundan1209)
