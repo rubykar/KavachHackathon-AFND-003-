@@ -8,7 +8,8 @@ The project aims to detect fake news articles using machine learning techniques.
 
 ## The workflow of the Model
 
-![AFND-003 (2)](https://user-images.githubusercontent.com/49357847/230148229-ed7ecf39-74ba-4be4-8c07-421a5cd04867.png)
+![AFND-003](https://user-images.githubusercontent.com/49357847/230148970-54fd708f-4ffa-494b-acdb-f6155c109bb5.jpg)
+
 
 
 
