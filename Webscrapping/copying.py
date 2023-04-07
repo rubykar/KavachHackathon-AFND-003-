@@ -18,7 +18,7 @@ with open('news_update.csv', 'r', newline='', encoding='ISO-8859-1') as file2:
         Statement, Web, Label = row2[0], row2[1], row2[2]
         
         # Check if the row already exists in the first file
-        if [Statement, Web, Label] in file1_contents:
+        if ["Statement", "Web", "Label"] in file1_contents:
             continue
         else:
             # Append the three columns to the first file

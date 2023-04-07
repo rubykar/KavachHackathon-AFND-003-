@@ -33,25 +33,27 @@ urls = ['https://www.ndtv.com/',
 'https://www.news9live.com/',
 'https://www.newindianexpress.com/']
 
-# create empty lists to store the headlines, sources, and status
-headlines = []
-sources = []
-status = []
+# create empty lists to store the headlines, Web
+#, and status
+Statement = []
+Web = []
+Label = []
 
-# loop through the URLs and scrape the headlines
+# loop through the URLs and scrape the Statement
 for url in urls:
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
     for headline in soup.find_all(['h1', 'h2', 'h3']):
-        headlines.append(headline.text.strip())
-        sources.append(url)
-        status.append(True)
+        Statement.append(headline.text.strip())
+        Web.append(url)
+        Label.append(True)
 
-# write the headlines, sources, and status to a CSV file
-with open('news_update.csv', 'w', newline='', encoding='utf-8') as file:
+# write the Statement, Web
+#, and Label to a CSV file
+with open('news_update.csv', '+a', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
-    writer.writerow(['Headline', 'Source', 'Status'])
-    for i in range(len(headlines)):
-        writer.writerow([headlines[i], sources[i], status[i]])
+    writer.writerow(['Statement', 'Web', 'Label'])
+    for i in range(len(Statement)):
+        writer.writerow([Statement[i], Web[i], Label[i]])
 
 print('CSV file written successfully!')
